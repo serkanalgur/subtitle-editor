@@ -39,7 +39,6 @@ jobs:
           prerelease: false
           files: |
             build/web/**
-            build/windows/**
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
